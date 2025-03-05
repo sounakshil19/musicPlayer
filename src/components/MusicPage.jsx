@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PauseIcon from '@mui/icons-material/Pause';
 import CloseIcon from '@mui/icons-material/Close';
-import Musics from './Musics';
+// import Musics from './Musics';
 
 const MusicPage = () => {
     const { musicData } = useAudio();
@@ -80,7 +80,7 @@ const MusicPage = () => {
 
     return (
         <>
-        <Musics/>
+        {/* <Musics/> */}
         <Box sx={{ textAlign: "center", mt: 5 }}>
             <Typography variant="h4" sx={{ fontWeight: "bold", color: "#2E7D32", mb: 3 }}>
                 🎵 Browse Your Music Collection
